@@ -1,6 +1,10 @@
 # shape-defenders
 A simple tower defence game built in javascript and html
 
+<img width="1033" height="713" alt="image" src="https://github.com/user-attachments/assets/fb879069-01ed-4132-bec1-589a80103b27" />
+
+my main purpose for creating this was to code in a language other than python, and i like tower defence games (not as much as i like vampire survivors)
+
 Features:
 -geometrically rendered game with no assets (not fun to code)
 -4 unique towers
