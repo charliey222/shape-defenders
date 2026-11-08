@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang=""en>
+<head>
+    <meta charset=""UTF-8>
+    <meta name=""viewport content="width=device-width, inital-scale=1.0">
+    <title>Shape Defenders</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #041b1b;
+            color: #ffffff;
+            font-family:'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        #game-conmtainer {
+            position: relative;
+        }
+        canvas {
+            border: 2px solid #333;
+            background-color: #1a1a1a;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Shape Defenders</h1>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="960" height="600"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
